@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+</head>
+
+<body id="start">
+    <nav class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a data-scroll class="navbar-brand" href="#start">
+                <i class="fas fa-home"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a data-scroll class="nav-link" href="#main">O mnie </a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link" href="#projects">Realizacje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link" href="#skills">Umiejętności</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link " href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <div class="fotocv">
+        <img src="img/fotocv.jpg" />
+    </div>
+
+    <center>"Najlepszą zemstą jest ogromny sukces." – Frank Sinatra</center>
+
+
+
+    <section id="main">
+        <h1 class="nag">O MNIE</h1>
+
+        <div class="o-mnie"><p>Cześć! Mam na imię Wojtek. Jestem programistą webowym od strony front-end.</p></div>
+
+        <div class="icons">
+            <center class="icon">
+                <i style="color:#c767cf" class="fas fa-ambulance"></i>
+                <p>Dopasowane
+                    do<br/> Twoich potrzeb</p>
+            </center>
+            <center class="icon">
+                <i style="color:#1ca76a" class="fas fa-pencil-alt"></i>
+                <p>Dokładność </p>
+            </center>
+            <center class="icon">
+                <i style="color:#87a6ce" class="fas fa-mobile-alt"></i>
+                <p>Zasada responsive</p>
+            </center>
+            <center class="icon">
+                <i style="color:red " class="fas fa-heart"></i>
+                <p>Budowane z pasją</p>
+            </center>
+        </div>
+        
+
+    </section>
+
+    <section id="projects">
+        <h1 class="nag">Realizacje</h1>
+        <br/>
+
+        <div class="box">
+             <p>Strona przedstawiająca prognoze pogody, wykorzystująca ogólno dostępne dane. </p>
+            <a href="pogoda  RWD/index.html" target="_blank"><img src="img/pogoda.jpg" /></a>
+            
+        </div>
+        <div class="box">
+            <p>Aktualne kursy walut. Dane pobrane ze strony Narodowego Banku Polskiego. </p>
+            <a href="pobieranie api na praktyki/index.html" target="_blank"><img src="img/kursy.jpg" /> </a>
+        </div>
+        <div class="box">
+            <p>Strona na wrór iTunes, wyszukująca piosenki.</p>
+            <a href="Projekt praktyki/index.html" target="_blank"> <img src="img/itunes.jpg" /> </a>
+        </div>
+    </section>
+    <section id="skills">
+        <h1 class="nag">Umiejętności</h1>
+        <div class="icons">
+            <center class="icon">
+                <i style="color:red" class="fab fa-html5"></i>
+                <p>HTML</p>
+            </center>
+            <center class="icon">
+                <i style="color:blue" class="fab fa-css3-alt"></i>
+                <p>CSS </p>
+            </center>
+            <center class="icon">
+                <i style="color:orange" class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </center>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <h1 class="nag">Kontakt</h1>
+        <div class="icons">
+            <center class="icon">
+                <i style="color:rgb(28, 106, 138) " class="fas fa-envelope"></i>
+                <p> wojtek.kogut@o2.pl</p>
+            </center>
+            <center class="icon">
+                <i style="color: rgb(4, 241, 75)" class="fas fa-phone"></i>
+                <br/>
+                <p>tel.: 534-009-123</p>
+            </center>
+            <center class="icon">
+                <a href="https://www.facebook.com/wojtek.kogut.7" target="_blank"><i style="color: blue" class="fab fa-facebook-square"></i></a>
+                <p>Znajdziesz mnie także na Facebooku</p>
+            </center>
+            <center class="icon">
+                <a href=" https://github.com/wojtekx" target="_blank"><i style="color: white" class="fab fa-github"></i> </a>  
+                <p>...i na github:</p>
+            </center>
+        </div>
+
+    </section>
+    <footer>
+        Wszystkie praca zastrzeżone &copy Wojciech Kogut
+    </footer>
+
+
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

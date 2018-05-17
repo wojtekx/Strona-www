@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/tlo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Bree Serif', serif;
+}
+
+.navigation {
+    position: fixed;
+    background: #0c0cbd;
+    opacity: 0.8;
+}
+
+.navigation a {
+    float: left;
+}
+
+.navigation button {
+    float: right;
+}
+
+.fotocv {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotocv img {
+    width: 272px;
+    height: 332px;
+    border: 10px solid #280e5e;
+    border-radius: 25%;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100vw;
+}
+
+.navbar a {
+    font-size: 30px;
+    color: goldenrod !important;
+    margin: 0 10px;
+}
+
+.navbar button {
+    margin-left: auto;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-toggler {
+    background-color: goldenrod !important
+}
+
+center {
+    font-size: 25px;
+    color: gold;
+    margin: 30px;
+}
+
+.icons {
+    width: 100vw;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.icon {
+    font-size: 20px;
+    color: gold;
+    width: 33%;
+}
+
+.icon i {
+    font-size: 50px;
+    color: gold;
+}
+
+.o-mnie {
+   
+    padding: 50px;
+}
+
+
+center {
+    margin: 80px auto;
+}
+
+.nag {
+    width: 80vw;
+    padding: 5px;
+    border: 3px solid green;
+    border-radius: 13%;
+    text-align: center;
+    margin: 0 auto;
+    color: gold;
+    box-shadow: 0 0 20px 5px green;
+}
+
+.o-mnie {
+    font-size: 22px;
+    color: gold;
+    text-align: center;
+}
+
+.box {
+    margin: 50px auto;
+}
+
+.box p {
+    font-size: 23px;
+    color: gold;
+    text-align: center;
+}
+
+.box img {
+    width: 70vw;
+    height: 50vw;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid wheat;
+    border-radius: 30%;
+    transition: transform 1.5s ease;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    margin: auto;
+}
+
+@media (min-width:606px) {
+    .icons {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .box img {
+        width: 70vw;
+        height: 50vw;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+@media (min-width:750px){
+    .box img {
+        width: 30vw;
+        height: 20vw;
+        margin: 0 auto;
+        display: flex;
+        border: 2px solid wheat;
+        border-radius: 30%;
+    }
+    .box img:hover{
+        cursor: pointer;
+        transform: scale(1.2) translateY(20px);
+    }
+}

@@ -1,0 +1,59 @@
+*{
+    background: gray;
+    margin-top: 0px;
+}
+
+body{
+    padding-top: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+ul{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100px;
+    padding: 0;
+    
+    
+}
+
+ul:first-child{
+    border-left: 1px solid black;
+    width: 300px;
+    
+}
+
+li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+
+.head{
+    border-bottom: 1px solid black;
+    background: rgba(25, 92, 60, 0.575);
+    color: rgb(230, 223, 223);
+    padding: 5px;
+    
+}
+
+.line{
+    padding: 5px;
+    background: rgb(227, 228, 233);
+}
+
+.line:nth-child(2n+1){
+    background: rgb(149, 199, 231);
+}
+
+ul > li{
+    text-align: right;
+}
+
+ul:first-child > li{
+    text-align: left;
+}
